@@ -16,7 +16,7 @@
   <adapter factory=".mtiles.DefaultQuery" name="default" />
   <adapter factory=".mtiles.DefaultSortOn" name="default" />
 
-  <include package="plone.mtiles" file="meta.zcml" />
+  <include package="plone.tiles" file="meta.zcml" />
 
   <plone:tile zcml:condition="installed plone.app.standardtiles"
       name="medialog.mtiles.mgallery"
