@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body tal:define="uid view/getUID">
+<div id="gallery" class="mgallery-container" tal:attributes="id string:gallery${uid}">
+    <tal:images tal:repeat="img view/tags">
+        <img tal:replace="structure img"/>
+    </tal:images>
+</div>
+</body>
+</html>
+

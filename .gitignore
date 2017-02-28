@@ -1,0 +1,5 @@
+
+src/medialog.tiles.mgallery.egg-info/
+src/medialog.tiles.mgallery.egg-info/*
+
+*.pyc

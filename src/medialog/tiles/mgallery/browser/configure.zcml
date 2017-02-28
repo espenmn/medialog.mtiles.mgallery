@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="medialog.tiles.mgallery">
+
+
+
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+      name="medialog.tiles.mgallery"
+      directory="static"
+      />
+
+  <adapter factory=".tiles.DefaultQuery" name="default" />
+  <adapter factory=".tiles.DefaultSortOn" name="default" />
+
+  <include package="plone.tiles" file="meta.zcml" />
+
+  <plone:tile zcml:condition="installed plone.app.standardtiles"
+      name="plone.tiles.mgallery"
+      title="M Gallery"
+      permission="zope2.View"
+      add_permission="cmf.ModifyPortalContent"
+      template="templates/mgallery.pt"
+      class=".tiles.MgalleryTile"
+      schema=".tiles.IMgalleryTile"
+      for="*"
+      />
+
+</configure>

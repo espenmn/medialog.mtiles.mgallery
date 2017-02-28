@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <version>10</version>
+  <dependencies>
+    <dependency>profile-medialog.js.mgallery:default</dependency>
+  </dependencies>
+</metadata>
