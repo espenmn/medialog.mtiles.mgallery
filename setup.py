@@ -33,7 +33,7 @@ setup(
     url='https:/github.com/espenmn/medialog.mtiles.mgallery',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['medialog', 'medialog.mtiles.mgallery'],
+    namespace_packages=['medialog', 'medialog.mtiles'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
