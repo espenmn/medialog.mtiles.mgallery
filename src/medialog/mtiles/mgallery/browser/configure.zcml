@@ -18,8 +18,8 @@
 
   <include package="plone.mtiles" file="meta.zcml" />
 
-  <plone:tile zcml:condition="installed plone.app.standardmtiles"
-      name="plone.mtiles.mgallery"
+  <plone:tile zcml:condition="installed plone.app.standardtiles"
+      name="medialog.mtiles.mgallery"
       title="M Gallery"
       permission="zope2.View"
       add_permission="cmf.ModifyPortalContent"
