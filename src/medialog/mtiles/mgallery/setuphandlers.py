@@ -9,7 +9,7 @@ class HiddenProfiles(object):
     def getNonInstallableProfiles(self):
         """Hide uninstall profile from site-creation and quickinstaller"""
         return [
-            'medialog.tiles.mgallery:uninstall',
+            'medialog.mtiles.mgallery:uninstall',
         ]
 
 

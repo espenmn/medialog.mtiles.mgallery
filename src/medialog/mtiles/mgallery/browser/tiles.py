@@ -15,7 +15,7 @@ from zope.schema import getFields
 from zope import schema
 from plone.tiles import Tile
 from plone.tiles.interfaces import ITileType
-from medialog.tiles.mgallery import _
+from medialog.mtiles.mgallery import _
 from Products.CMFPlone import PloneMessageFactory as _pmf
 
 class IMgalleryTile(model.Schema):
@@ -93,7 +93,7 @@ class MgalleryTile(Tile):
     """M Gallery Tile"""
 
     slidertypes = ['default', 'compact', 'grid', 'slider']
-    staticFilesRelative = '++resource++medialog.tiles.mgallery'
+    staticFilesRelative = '++resource++medialog.mtiles.mgallery'
 
     def __init__(self, context, request):
         super(MgalleryTile, self).__init__(context, request)

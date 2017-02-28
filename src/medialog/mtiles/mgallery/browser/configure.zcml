@@ -3,29 +3,29 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:zcml="http://namespaces.zope.org/zcml"
-    i18n_domain="medialog.tiles.mgallery">
+    i18n_domain="medialog.mtiles.mgallery">
 
 
 
   <!-- Publish static files -->
   <browser:resourceDirectory
-      name="medialog.tiles.mgallery"
+      name="medialog.mtiles.mgallery"
       directory="static"
       />
 
-  <adapter factory=".tiles.DefaultQuery" name="default" />
-  <adapter factory=".tiles.DefaultSortOn" name="default" />
+  <adapter factory=".mtiles.DefaultQuery" name="default" />
+  <adapter factory=".mtiles.DefaultSortOn" name="default" />
 
-  <include package="plone.tiles" file="meta.zcml" />
+  <include package="plone.mtiles" file="meta.zcml" />
 
-  <plone:tile zcml:condition="installed plone.app.standardtiles"
-      name="plone.tiles.mgallery"
+  <plone:tile zcml:condition="installed plone.app.standardmtiles"
+      name="plone.mtiles.mgallery"
       title="M Gallery"
       permission="zope2.View"
       add_permission="cmf.ModifyPortalContent"
       template="templates/mgallery.pt"
-      class=".tiles.MgalleryTile"
-      schema=".tiles.IMgalleryTile"
+      class=".mtiles.MgalleryTile"
+      schema=".mtiles.IMgalleryTile"
       for="*"
       />
 

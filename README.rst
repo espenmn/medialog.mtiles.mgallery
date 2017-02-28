@@ -3,7 +3,7 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================================================================
-medialog.tiles.mgallery
+medialog.mtiles.mgallery
 ==============================================================================
 
 Implements Unite Gallery as tile for Mosaic in Plone
@@ -21,14 +21,14 @@ Todo
 Installation
 ------------
 
-Install medialog.tiles.mgallery by adding it to your buildout::
+Install medialog.mtiles.mgallery by adding it to your buildout::
 
     [buildout]
 
     ...
 
     eggs =
-        medialog.tiles.mgallery
+        medialog.mtiles.mgallery
 
 
 and then running ``bin/buildout``
@@ -37,8 +37,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/medialog/medialog.tiles.mgallery/issues
-- Source Code: https://github.com/medialog/medialog.tiles.mgallery
+- Issue Tracker: https://github.com/medialog/medialog.mtiles.mgallery/issues
+- Source Code: https://github.com/medialog/medialog.mtiles.mgallery
 
 
 Support

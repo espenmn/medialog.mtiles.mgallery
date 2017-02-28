@@ -4,5 +4,5 @@
 from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 
 
-class IMedialogTilesMgalleryLayer(IDefaultBrowserLayer):
+class IMedialogMTilesMgalleryLayer(IDefaultBrowserLayer):
     """Marker interface that defines a browser layer."""

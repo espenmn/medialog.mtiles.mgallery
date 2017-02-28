@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the medialog.tiles.mgallery package."""
+"""Installer for the medialog.mtiles.mgallery package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -13,9 +13,9 @@ long_description = '\n\n'.join([
 
 
 setup(
-    name='medialog.tiles.mgallery',
+    name='medialog.mtiles.mgallery',
     version='1.0',
-    description="M Gallery for mosaic tiles in Plone",
+    description="M Gallery for mosaic mtiles in Plone",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -30,10 +30,10 @@ setup(
     keywords='Python Plone',
     author='Espen Moe-Nilssen',
     author_email='espen@medialog.no',
-    url='https:/github.com/espenmn/medialog.tiles.mgallery',
+    url='https:/github.com/espenmn/medialog.mtiles.mgallery',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=['medialog', 'medialog.tiles.mgallery'],
+    namespace_packages=['medialog', 'medialog.mtiles.mgallery'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,

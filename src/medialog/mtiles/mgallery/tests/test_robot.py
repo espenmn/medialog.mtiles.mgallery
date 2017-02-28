@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from medialog.tiles.mgallery.testing import MEDIALOG_TILES_MGALLERY_ACCEPTANCE_TESTING  # noqa
+from medialog.mtiles.mgallery.testing import MEDIALOG_MTILES_MGALLERY_ACCEPTANCE_TESTING  # noqa
 from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
 
@@ -22,7 +22,7 @@ def test_suite():
         suite.addTests([
             layered(
                 robottestsuite,
-                layer=MEDIALOG_TILES_MGALLERY_ACCEPTANCE_TESTING
+                layer=MEDIALOG_MTILES_MGALLERY_ACCEPTANCE_TESTING
             ),
         ])
     return suite

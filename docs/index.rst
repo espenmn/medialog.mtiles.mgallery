@@ -1,5 +1,5 @@
 ====================
-medialog.tiles.mgallery
+medialog.mtiles.mgallery
 ====================
 
 User documentation

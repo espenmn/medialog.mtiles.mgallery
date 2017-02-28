@@ -2,7 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
-    i18n_domain="medialog.tiles.mgallery">
+    i18n_domain="medialog.mtiles.mgallery">
 
   <i18n:registerTranslations directory="locales" />
 
@@ -13,24 +13,24 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="medialog.tiles.mgallery"
+      title="medialog.mtiles.mgallery"
       directory="profiles/default"
-      description="Installs the medialog.tiles.mgallery add-on."
+      description="Installs the medialog.mtiles.mgallery add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       post_handler=".setuphandlers.post_install"
       />
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="medialog.tiles.mgallery (uninstall)"
+      title="medialog.mtiles.mgallery (uninstall)"
       directory="profiles/uninstall"
-      description="Uninstalls the medialog.tiles.mgallery add-on."
+      description="Uninstalls the medialog.mtiles.mgallery add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       post_handler=".setuphandlers.uninstall"
       />
 
   <utility
       factory=".setuphandlers.HiddenProfiles"
-      name="medialog.tiles.mgallery-hiddenprofiles" />
+      name="medialog.mtiles.mgallery-hiddenprofiles" />
 
 </configure>

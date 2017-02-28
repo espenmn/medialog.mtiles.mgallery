@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-        i18n:domain="medialog.tiles.mgallery">
+        i18n:domain="medialog.mtiles.mgallery">
 
   <records prefix="plone.app.mosaic.app_tiles.mgallery"
-     interface="plone.app.mosaic.interfaces.ITile" i18n:domain="medialog.tiles.mgallery">
-    <value key="name">plone.tiles.mgallery</value>
+     interface="plone.app.mosaic.interfaces.ITile" i18n:domain="medialog.mtiles.mgallery">
+    <value key="name">plone.mtiles.mgallery</value>
     <value key="label" i18n:translate="">M Gallery</value>
     <value key="category">advanced</value>
     <value key="tile_type">app</value>
