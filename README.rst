@@ -6,17 +6,13 @@
 medialog.mtiles.mgallery
 ==============================================================================
 
-Implements Unite Gallery as tile for Mosaic in Plone
+Implements MGallery as tile for Mosaic in Plone
 
 Features
 --------
 
-- Adds a new tile name Unite Gallery that can display a collection of images as tiles or gallery
+- Adds a new tile name MGallery that can display a collection of images as tiles or gallery
 
-Todo
-----
-
-- When tiles settings will be able to display form fieldsets, add all gallery options
 
 Installation
 ------------
