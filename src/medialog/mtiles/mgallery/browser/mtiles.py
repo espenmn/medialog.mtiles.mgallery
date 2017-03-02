@@ -128,17 +128,7 @@ class MgalleryTile(Tile):
 
     
     def script(self):
-        return """
-<script type="text/javascript">
-requirejs(["mgallery-%(theme)s"], function(util) {
-    var gallery%(uid)s;
-    $(document).ready(function() {
-        
-        
-    });
-});
-</script>
-""" % {'uid':self.getUID()}
+        return " "
 
 
     def tag(self, img, fieldname=None, scale=None, height=None, width=None,
